@@ -15,6 +15,7 @@ echo "dev ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 exit
 
 git clone https://github.com/Pi-Bouf/wsl-install.git
-chmod u+x wsl-install/Install.sh
-wsl-install/Install.sh
+cd wsl-install
+chmod u+x Install.sh
+sh Install.sh
 ```

@@ -16,7 +16,7 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 # Install all utilities
-sudo apt-get install gedit nautilus mysql-client mysql-server apt-transport-https curl zsh yadm make automake nodejs brave-browser nginx mysql-server mysql-client php7.4-bcmath php7.4-bz2 php7.4-cgi php7.4-cli php7.4-common php7.4-curl php7.4-dev php7.4-fpm php7.4-gd php7.4-intl php7.4-json php7.4-mbstring php7.4-odbc php7.4-opcache php7.4-readline php7.4-sqlite3 php7.4-xml php7.4-xmlrpc php7.4-zip php7.4-mysql
+sudo apt-get install gedit nautilus mysql-client mysql-server apt-transport-https curl zsh yadm make automake nodejs brave-browser nginx mysql-server mysql-client php7.4-bcmath php7.4-bz2 php7.4-cgi php7.4-cli php7.4-common php7.4-curl php7.4-dev php7.4-fpm php7.4-gd php7.4-intl php7.4-json php7.4-mbstring php7.4-odbc php7.4-opcache php7.4-readline php7.4-sqlite3 php7.4-xml php7.4-xmlrpc php7.4-zip php7.4-mysql -y
 
 # Install composer
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
@@ -36,4 +36,4 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Clone all dotfiles
-yadm clone https://github.com/Pi-Bouf/wsl-dotfiles.git
+yadm clone https://github.com/Pi-Bouf/wsl-dotfiles.git -f
