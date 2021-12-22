@@ -24,6 +24,11 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === '906a84df04cea2aa72f40
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 
+# Install Jetbrains Toolbox <3
+wget wget https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-1.22.10740.tar.gz -P /tmp
+tar -zxf /tmp/jetbrains-toolbox-*.tar.gz -C ~/
+mv ~/jetbrains-toolbox-* ~/jetbrains-toolbox
+
 # Install Oh My ZSH's stuff
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
