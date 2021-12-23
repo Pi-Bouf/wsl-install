@@ -6,7 +6,7 @@ Mello Patched:
 
 https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
 
-## Before setup
+## Instructions
 Please, run following commands:
 
 ```
@@ -18,4 +18,5 @@ git clone https://github.com/Pi-Bouf/wsl-install.git
 cd wsl-install
 chmod u+x Install.sh
 sh Install.sh
+sh Post-Zsh.sh
 ```
