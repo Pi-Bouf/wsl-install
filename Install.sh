@@ -32,5 +32,8 @@ mkdir -p ~/.local/share/JetBrains/Toolbox/bin/
 mkdir -p ~/.local/share/JetBrains/Toolbox/shortcuts/
 mv ~/jetbrains-toolbox-*/jetbrains-toolbox ~/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox
 
+# Install Yarn
+sudo npm install -g yarn
+
 # Install Oh-My-Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
