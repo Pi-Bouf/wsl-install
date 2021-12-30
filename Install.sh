@@ -26,9 +26,11 @@ php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/bin/composer
 
 # Install Jetbrains Toolbox <3
-wget wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.22.10970.tar.gz -P /tmp
+wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.22.10970.tar.gz -P /tmp
 tar -zxf /tmp/jetbrains-toolbox-*.tar.gz -C ~/
-mv ~/jetbrains-toolbox-* ~/jetbrains-toolbox
+mkdir -p .local/share/JetBrains/Toolbox/bin/
+mkdir -p .local/share/JetBrains/Toolbox/shortcuts/
+mv ~/jetbrains-toolbox-*/jetbrains-toolbox .local/share/JetBrains/Toolbox/bin/jetbrains-toolbox
 
 # Install Oh-My-Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
