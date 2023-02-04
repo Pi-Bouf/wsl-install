@@ -6,7 +6,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # Clone all dotfiles
-yadm clone https://github.com/Pi-Bouf/wsl-dotfiles.git -f
+yadm clone git@github.com:Pi-Bouf/wsl-dotfiles.git -f
 
 # Success ! <3
 clear
