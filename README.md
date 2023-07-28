@@ -16,7 +16,7 @@ exit
 
 git clone https://github.com/Pi-Bouf/wsl-install.git
 cd wsl-install
-chmod u+x Install.sh
+chmod u+x *.sh
 sh Install.sh
 sh Post-Zsh.sh
 ```
