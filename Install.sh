@@ -30,7 +30,7 @@ php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/bin/composer
 
 # Install Jetbrains Toolbox <3
-wget https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-1.28.1.15219.tar.gz -P /tmp
+wget https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-2.2.1.19765.tar.gz -P /tmp
 tar -zxf /tmp/jetbrains-toolbox-*.tar.gz -C ~/
 mkdir -p ~/.local/share/JetBrains/Toolbox/bin/
 mkdir -p ~/.local/share/JetBrains/Toolbox/shortcuts/
